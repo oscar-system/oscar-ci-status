@@ -1,0 +1,49 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="30" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Build 8378 | oscar-ci-status</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Build 8378" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="OSCAR continuous integration status" />
+<meta property="og:description" content="OSCAR continuous integration status" />
+<link rel="canonical" href="https://oscar-system.github.io/oscar-ci-status/" />
+<meta property="og:url" content="https://oscar-system.github.io/oscar-ci-status/" />
+<meta property="og:site_name" content="oscar-ci-status" />
+<script type="application/ld+json">
+{"headline":"Build 8378","@type":"WebSite","url":"https://oscar-system.github.io/oscar-ci-status/","name":"oscar-ci-status","description":"OSCAR continuous integration status","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/oscar-ci-status/assets/css/style.css">
+    <link rel="stylesheet" href="/oscar-ci-status/assets/css/cards.css">
+  </head>
+  <body>
+
+
+<div class="container-lg px-3 my-5 markdown-body">
+<h2><a href="{{site.data.ci.build_url}}">Build {{site.data.ci.build}}</a></h2>
+</div>
+
+    <div class="cards">
+      {% for t in site.data.ci.tests %}
+      <div class="card {{t.status}}">
+      <h3>{{t.name}}</h3>
+      Build was a <a href="{{t.log}}">{{t.status}}</a>
+      <br>Started {{t.start}}
+      <br>Run for {{t.duration}}&nbsp;s
+      {% if t.last_success %}<br>Last successful build: <a href="{{t.last_success_url}}">{{t.last_success}}</a>{% endif %}
+      {% if t.first_failure %}<br>First failing build: <a href="{{t.first_failure_url}}">{{t.first_failure}}</a>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+
+  </body>
+</html>
