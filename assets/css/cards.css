@@ -1,0 +1,58 @@
+/* 
+Based on https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layout-4842a41420fe
+ */
+
+.card {
+  color: white;
+  padding: 1rem;
+  height: 11rem;
+  border-radius: 16px;
+}
+
+.cards {
+/*   max-width: 1500px; */
+  margin: 0 auto;
+  display: grid;
+  padding: 0.5rem;
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+/* 
+
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (min-width: 1200px) {
+  .cards { grid-template-columns: repeat(4, 1fr); }
+}
+ */
+
+.success { background-color: #008F00; }
+
+.failure { background-color: #941100; }
+
+/* unvisited link */
+.card a:link {
+  color: white;
+  text-decoration:underline;
+}
+
+/* visited link */
+.card a:visited {
+  color: white;
+}
+
+/* mouse over link */
+.card a:hover {
+  color: lightgray;
+}
+
+/* selected link */
+.card a:active {
+  color: blue;
+}
