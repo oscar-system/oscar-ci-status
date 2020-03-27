@@ -1,49 +1,71 @@
-build: 8417
-build_url: https://oscarci.mathematik.uni-kl.de/job/oscar/8417/
+build: 8418
+build_url: https://oscarci.mathematik.uni-kl.de/job/oscar/8418/
 job: oscar
 tests:
-- duration: 68
+- duration: 85
   exitcode: 0
   first_failure: false
   first_failure_url: null
   last_success: false
   last_success_url: null
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8417/artifact/logs/build-8417/CheckPackages.log
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8418/artifact/logs/build-8418/CheckPackages.log
   name: CheckPackages
-  start: 2020-03-27 08:04
+  start: 2020-03-27 08:51
   status: success
   success: true
-- duration: 15
+- duration: 16
   exitcode: 1
   first_failure: 8416
   first_failure_url: https://oscarci.mathematik.uni-kl.de/job/oscar/8416/
   last_success: 8415
   last_success_url: https://oscarci.mathematik.uni-kl.de/job/oscar/8415/
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8417/artifact/logs/build-8417/OscarForHomalg.log
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8418/artifact/logs/build-8418/OscarForHomalg.log
   name: OscarForHomalg
-  start: 2020-03-27 08:05
+  start: 2020-03-27 08:53
   status: failure
   success: false
-- duration: 148
+- duration: 143
   exitcode: 0
   first_failure: false
   first_failure_url: null
   last_success: false
   last_success_url: null
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8417/artifact/logs/build-8417/GAP.log
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8418/artifact/logs/build-8418/GAP.log
   name: GAP
-  start: 2020-03-27 08:05
+  start: 2020-03-27 08:53
   status: success
   success: true
-- duration: 37
+- duration: 32
   exitcode: 0
   first_failure: false
   first_failure_url: null
   last_success: false
   last_success_url: null
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8417/artifact/logs/build-8417/GAP.jl.log
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8418/artifact/logs/build-8418/GAP.jl.log
   name: GAP.jl
-  start: 2020-03-27 08:07
+  start: 2020-03-27 08:55
+  status: success
+  success: true
+- duration: 283
+  exitcode: 0
+  first_failure: false
+  first_failure_url: null
+  last_success: false
+  last_success_url: null
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8418/artifact/logs/build-8418/Nemo.jl.log
+  name: Nemo.jl
+  start: 2020-03-27 08:56
+  status: success
+  success: true
+- duration: 1418
+  exitcode: 0
+  first_failure: false
+  first_failure_url: null
+  last_success: false
+  last_success_url: null
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8418/artifact/logs/build-8418/Hecke.jl.log
+  name: Hecke.jl
+  start: 2020-03-27 09:01
   status: success
   success: true
 - duration: 285
@@ -52,53 +74,31 @@ tests:
   first_failure_url: null
   last_success: false
   last_success_url: null
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8417/artifact/logs/build-8417/Nemo.jl.log
-  name: Nemo.jl
-  start: 2020-03-27 08:08
-  status: success
-  success: true
-- duration: 1400
-  exitcode: 0
-  first_failure: false
-  first_failure_url: null
-  last_success: false
-  last_success_url: null
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8417/artifact/logs/build-8417/Hecke.jl.log
-  name: Hecke.jl
-  start: 2020-03-27 08:13
-  status: success
-  success: true
-- duration: 286
-  exitcode: 0
-  first_failure: false
-  first_failure_url: null
-  last_success: false
-  last_success_url: null
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8417/artifact/logs/build-8417/AbstractAlgebra.jl.log
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8418/artifact/logs/build-8418/AbstractAlgebra.jl.log
   name: AbstractAlgebra.jl
-  start: 2020-03-27 08:36
+  start: 2020-03-27 09:24
   status: success
   success: true
-- duration: 41
+- duration: 40
   exitcode: 0
   first_failure: false
   first_failure_url: null
   last_success: false
   last_success_url: null
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8417/artifact/logs/build-8417/Singular.jl.log
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8418/artifact/logs/build-8418/Singular.jl.log
   name: Singular.jl
-  start: 2020-03-27 08:41
+  start: 2020-03-27 09:29
   status: success
   success: true
-- duration: 44
+- duration: 46
   exitcode: 0
   first_failure: false
   first_failure_url: null
   last_success: false
   last_success_url: null
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8417/artifact/logs/build-8417/HomalgProject.jl.log
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8418/artifact/logs/build-8418/HomalgProject.jl.log
   name: HomalgProject.jl
-  start: 2020-03-27 08:42
+  start: 2020-03-27 09:30
   status: success
   success: true
 - duration: 297
@@ -107,42 +107,42 @@ tests:
   first_failure_url: null
   last_success: false
   last_success_url: null
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8417/artifact/logs/build-8417/Polymake.jl.log
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8418/artifact/logs/build-8418/Polymake.jl.log
   name: Polymake.jl
-  start: 2020-03-27 08:42
+  start: 2020-03-27 09:30
   status: success
   success: true
-- duration: 15
+- duration: 14
   exitcode: 0
   first_failure: false
   first_failure_url: null
   last_success: false
   last_success_url: null
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8417/artifact/logs/build-8417/JuliaInterface.log
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8418/artifact/logs/build-8418/JuliaInterface.log
   name: JuliaInterface
-  start: 2020-03-27 08:47
+  start: 2020-03-27 09:35
   status: success
   success: true
-- duration: 24
+- duration: 23
   exitcode: 0
   first_failure: false
   first_failure_url: null
   last_success: false
   last_success_url: null
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8417/artifact/logs/build-8417/JuliaExperimental.log
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8418/artifact/logs/build-8418/JuliaExperimental.log
   name: JuliaExperimental
-  start: 2020-03-27 08:48
+  start: 2020-03-27 09:36
   status: success
   success: true
-- duration: 117
+- duration: 110
   exitcode: 0
   first_failure: false
   first_failure_url: null
   last_success: false
   last_success_url: null
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8417/artifact/logs/build-8417/Oscar.jl.log
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8418/artifact/logs/build-8418/Oscar.jl.log
   name: Oscar.jl
-  start: 2020-03-27 08:48
+  start: 2020-03-27 09:36
   status: success
   success: true
 - duration: 21
@@ -151,8 +151,8 @@ tests:
   first_failure_url: null
   last_success: false
   last_success_url: null
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8417/artifact/logs/build-8417/NemoLinearAlgebraForCAP.log
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8418/artifact/logs/build-8418/NemoLinearAlgebraForCAP.log
   name: NemoLinearAlgebraForCAP
-  start: 2020-03-27 08:50
+  start: 2020-03-27 09:38
   status: success
   success: true
