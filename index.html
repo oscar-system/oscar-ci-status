@@ -8,13 +8,18 @@ layout: default
   {% for t in site.data.ci.tests %}
     <div class="card {{t.status}} {{t.name}}">
     <h3>{{t.name}}</h3>
-    Build was a <a href="{{t.log}}">{{t.status}}</a>
+    <!-- Build was a <a href="{{t.log}}">{{t.status}}</a> -->
+    <a href="{{t.log}}">[ log ]</a>
+    {% if site.data.github[t.name] %}
+    &nbsp;
+    <a href="{{site.data.github[t.name]}}">[ github ]</a>
+    {% endif %}
 <!-- 
     <br>Started {{t.start}}
     <br>Run for {{t.duration}}&nbsp;s
  -->
-    {% if t.last_success %}<br>Last successful build: <a href="{{t.last_success_url}}">{{t.last_success}}</a>{% endif %}
-    {% if t.first_failure %}<br>First failing build: <a href="{{t.first_failure_url}}">{{t.first_failure}}</a>{% endif %}
+    {% if t.last_success %}<br><a href="{{t.last_success_url}}">[ Last success ]</a>{% endif %}
+    {% if t.first_failure %}&nbsp;<a href="{{t.first_failure_url}}">[ First failure ]</a>{% endif %}
     </div>
   {% endfor %}
 </div>
