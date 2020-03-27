@@ -1,8 +1,47 @@
-html { font-size: 22px; }
-body { padding: 1rem; }
-.card {
-  background-color: dodgerblue;
-  color: white;
-  padding: 1rem;
-  height: 4rem;
-}
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="30" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Build {{site.data.ci.build}} | {{page.title}}</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Build {{site.data.ci.build}}" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="OSCAR continuous integration status" />
+<meta property="og:description" content="OSCAR continuous integration status" />
+<link rel="canonical" href="https://oscar-system.github.io/oscar-ci-status/" />
+<meta property="og:url" content="https://oscar-system.github.io/oscar-ci-status/" />
+<meta property="og:site_name" content="oscar-ci-status" />
+<script type="application/ld+json">
+{"headline":"Build {{site.data.ci.build}}","@type":"WebSite","url":"https://oscar-system.github.io/oscar-ci-status/","name":"oscar-ci-status","description":"OSCAR continuous integration status","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/oscar-ci-status/assets/css/style.css">
+    <link rel="stylesheet" href="/oscar-ci-status/assets/css/cards.css">
+  </head>
+  <body>
+
+<div class="container-lg px-3 my-5 markdown-body">
+<div style="float: right">
+<a href="index.html">Card view</a>
+- <a href="table.html">Table view</a>
+</div>
+<h2><a href="{{site.data.ci.build_url}}">Build {{site.data.ci.build}}</a></h2>
+<!-- 
+<a href="https://github.com/oscar-system/oscar-">github.com/oscar-system/oscar-ci-status</a>
+<br>
+ -->
+{% assign tests = site.data.ci.tests | sort: "start" %}
+run from {{ tests[0].start }} until {{ tests[-1].start }}
+</span>
+</ul>
+</div>
+
+
+{{content}}
+  </body>
+</html>

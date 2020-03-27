@@ -3,10 +3,11 @@ Based on https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layou
  */
 
 .card {
-  color: white;
+  color: #D6D6D6;
   padding: 1rem;
-  height: 11rem;
+  height: 8rem;
   border-radius: 16px;
+  text-align: center;
 }
 
 .cards {
@@ -15,7 +16,7 @@ Based on https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layou
   display: grid;
   padding: 0.5rem;
   grid-gap: 0.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
 }
 /* 
 
@@ -38,13 +39,13 @@ Based on https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layou
 
 /* unvisited link */
 .card a:link {
-  color: white;
+  color: #D6D6D6;
   text-decoration:underline;
 }
 
 /* visited link */
 .card a:visited {
-  color: white;
+  color: #D6D6D6;
 }
 
 /* mouse over link */
@@ -55,4 +56,13 @@ Based on https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layou
 /* selected link */
 .card a:active {
   color: blue;
+}
+
+.card h3 {
+  color: white;
+  font-size:2em
+}
+
+.NemoLinearAlgebraForCAP h3 {
+  font-size:1.3em !important
 }
