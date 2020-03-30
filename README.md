@@ -1,20 +1,20 @@
-## [Build 8495](https://oscarci.mathematik.uni-kl.de/job/oscar/8495/)
+## [Build 8496](https://oscarci.mathematik.uni-kl.de/job/oscar/8496/)
 
-* Started on: 2020-03-29
-* Ended on: 2020-03-29
+* Started on: 2020-03-30
+* Ended on: 2020-03-30
 
 | Test Name    | Result | Start | Duration | Last Success | First Failure |
 |:-------------|:-------|:------|:---------|:-------------|:--------------|
-| CheckPackages | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8495/artifact/logs/build-8495/CheckPackages.log) | 23:24 | 27 seconds |  |  |
-| GAP | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8495/artifact/logs/build-8495/GAP.log) | 23:24 | 162 seconds |  |  |
-| GAP.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8495/artifact/logs/build-8495/GAP.jl.log) | 23:27 | 32 seconds |  |  |
-| Nemo.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8495/artifact/logs/build-8495/Nemo.jl.log) | 23:27 | 277 seconds |  |  |
-| Hecke.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8495/artifact/logs/build-8495/Hecke.jl.log) | 23:32 | 1489 seconds |  |  |
-| AbstractAlgebra.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8495/artifact/logs/build-8495/AbstractAlgebra.jl.log) | 23:57 | 291 seconds |  |  |
-| Singular.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8495/artifact/logs/build-8495/Singular.jl.log) | 00:02 | 42 seconds |  |  |
-| HomalgProject.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8495/artifact/logs/build-8495/HomalgProject.jl.log) | 00:02 | 44 seconds |  |  |
-| Polymake.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8495/artifact/logs/build-8495/Polymake.jl.log) | 00:03 | 309 seconds |  |  |
-| JuliaInterface | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8495/artifact/logs/build-8495/JuliaInterface.log) | 00:08 | 15 seconds |  |  |
-| JuliaExperimental | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8495/artifact/logs/build-8495/JuliaExperimental.log) | 00:09 | 24 seconds |  |  |
-| Oscar.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8495/artifact/logs/build-8495/Oscar.jl.log) | 00:09 | 114 seconds |  |  |
-| NemoLinearAlgebraForCAP | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8495/artifact/logs/build-8495/NemoLinearAlgebraForCAP.log) | 00:11 | 20 seconds |  |  |
+| CheckPackages | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8496/artifact/logs/build-8496/CheckPackages.log) | 00:12 | 26 seconds |  |  |
+| GAP | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8496/artifact/logs/build-8496/GAP.log) | 00:12 | 147 seconds |  |  |
+| GAP.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8496/artifact/logs/build-8496/GAP.jl.log) | 00:15 | 32 seconds |  |  |
+| Nemo.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8496/artifact/logs/build-8496/Nemo.jl.log) | 00:15 | 284 seconds |  |  |
+| Hecke.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8496/artifact/logs/build-8496/Hecke.jl.log) | 00:20 | 3317 seconds |  |  |
+| AbstractAlgebra.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8496/artifact/logs/build-8496/AbstractAlgebra.jl.log) | 01:15 | 296 seconds |  |  |
+| Singular.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8496/artifact/logs/build-8496/Singular.jl.log) | 01:20 | 42 seconds |  |  |
+| HomalgProject.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8496/artifact/logs/build-8496/HomalgProject.jl.log) | 01:21 | 44 seconds |  |  |
+| Polymake.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8496/artifact/logs/build-8496/Polymake.jl.log) | 01:22 | 301 seconds |  |  |
+| JuliaInterface | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8496/artifact/logs/build-8496/JuliaInterface.log) | 01:27 | 15 seconds |  |  |
+| JuliaExperimental | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8496/artifact/logs/build-8496/JuliaExperimental.log) | 01:27 | 22 seconds |  |  |
+| Oscar.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8496/artifact/logs/build-8496/Oscar.jl.log) | 01:27 | 115 seconds |  |  |
+| NemoLinearAlgebraForCAP | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/8496/artifact/logs/build-8496/NemoLinearAlgebraForCAP.log) | 01:29 | 20 seconds |  |  |
