@@ -25,23 +25,20 @@
   </head>
   <body>
 
-<div class="container-lg px-3 my-5 markdown-body">
-<div style="float: right">
-<a href="index.html">Card view</a>
-- <a href="table.html">Table view</a>
-</div>
-<h2><a href="{{site.data.ci.build_url}}">Build {{site.data.ci.build}}</a></h2>
-<!-- 
-<a href="https://github.com/oscar-system/oscar-">github.com/oscar-system/oscar-ci-status</a>
-<br>
- -->
-{% assign tests = site.data.ci.tests | sort: "start" %}
-run from {{ tests[0].start }} until {{ tests[-1].start }}
-</span>
-</ul>
-</div>
+    <div style=" vertical-align: middle; margin: 0.5rem">
+      <div style="float: left; font-size:2em; font-weight:600; display:inline-block; height: 3rem; vertical-align: middle">
+        <a href="{{site.data.ci.build_url}}">Build {{site.data.ci.build}}</a>
+      </div>
+      <div style="float: right; text-align: right; display:inline-block; height: 3rem; line-height: 48px; vertical-align: middle;">
+        <a href="index.html">Card view</a> - <a href="table.html">Table view</a>
+       - <a href="https://github.com/oscar-system/oscar-ci-status">GitHub</a>
+      </div>
+      <div style="clear: both">
+        {% assign tests = site.data.ci.tests | sort: "start" %}
+        run from {{ tests[0].start }} until {{ tests[-1].start }}
+      </div>
+    </div>
 
-
-{{content}}
+    {{content}}
   </body>
 </html>
