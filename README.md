@@ -1,29 +1,29 @@
-## [Build 9369](https://oscarci.mathematik.uni-kl.de/job/oscar/9369/)
+## [Build 9370](https://oscarci.mathematik.uni-kl.de/job/oscar/9370/)
 
 * Started on: 2020-05-05
 * Ended on: 2020-05-05
 
 | Test Name    | Result | Start | Duration | Last Success | First Failure |
 |:-------------|:-------|:------|:---------|:-------------|:--------------|
-| Hecke.jl | ❌ [Failure (status = 1)](https://oscarci.mathematik.uni-kl.de/job/oscar/9369/artifact/logs/build-9369/Hecke.jl.log) | 03:09 | 435 seconds | [9256](https://oscarci.mathematik.uni-kl.de/job/oscar/9256/) | [9257](https://oscarci.mathematik.uni-kl.de/job/oscar/9257/) |
-| c-automorphisms.ipynb | ❌ [Failure (status = 1)](https://oscarci.mathematik.uni-kl.de/job/oscar/9369/artifact/logs/build-9369/c-automorphisms.ipynb.log) | 03:41 | 81 seconds | [9368](https://oscarci.mathematik.uni-kl.de/job/oscar/9368/) | [9369](https://oscarci.mathematik.uni-kl.de/job/oscar/9369/) |
-| CheckPackages | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9369/artifact/logs/build-9369/CheckPackages.log) | 03:00 | 47 seconds |  |  |
-| GAP | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9369/artifact/logs/build-9369/GAP.log) | 03:01 | 165 seconds |  |  |
-| GAP.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9369/artifact/logs/build-9369/GAP.jl.log) | 03:03 | 36 seconds |  |  |
-| Nemo.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9369/artifact/logs/build-9369/Nemo.jl.log) | 03:04 | 292 seconds |  |  |
-| AbstractAlgebra.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9369/artifact/logs/build-9369/AbstractAlgebra.jl.log) | 03:16 | 312 seconds |  |  |
-| Singular.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9369/artifact/logs/build-9369/Singular.jl.log) | 03:21 | 59 seconds |  |  |
-| HomalgProject.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9369/artifact/logs/build-9369/HomalgProject.jl.log) | 03:22 | 75 seconds |  |  |
-| Polymake.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9369/artifact/logs/build-9369/Polymake.jl.log) | 03:24 | 348 seconds |  |  |
-| JuliaInterface | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9369/artifact/logs/build-9369/JuliaInterface.log) | 03:29 | 17 seconds |  |  |
-| JuliaExperimental | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9369/artifact/logs/build-9369/JuliaExperimental.log) | 03:30 | 39 seconds |  |  |
-| Oscar.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9369/artifact/logs/build-9369/Oscar.jl.log) | 03:30 | 144 seconds |  |  |
-| NemoLinearAlgebraForCAP | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9369/artifact/logs/build-9369/NemoLinearAlgebraForCAP.log) | 03:33 | 37 seconds |  |  |
-| AbstractAlgebra.ipynb | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9369/artifact/logs/build-9369/AbstractAlgebra.ipynb.log) | 03:33 | 33 seconds |  |  |
-| CohP1.ipynb | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9369/artifact/logs/build-9369/CohP1.ipynb.log) | 03:34 | 66 seconds |  |  |
-| Hecke.ipynb | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9369/artifact/logs/build-9369/Hecke.ipynb.log) | 03:35 | 78 seconds |  |  |
-| Singular.ipynb | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9369/artifact/logs/build-9369/Singular.ipynb.log) | 03:36 | 44 seconds |  |  |
-| g-vectors.ipynb | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9369/artifact/logs/build-9369/g-vectors.ipynb.log) | 03:37 | 141 seconds |  |  |
-| K3-16.ipynb | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9369/artifact/logs/build-9369/K3-16.ipynb.log) | 03:39 | 78 seconds |  |  |
-| wronski-poly.ipynb | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9369/artifact/logs/build-9369/wronski-poly.ipynb.log) | 03:42 | 438 seconds |  |  |
-| Tropicalization.ipynb | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9369/artifact/logs/build-9369/Tropicalization.ipynb.log) | 03:49 | 80 seconds |  |  |
+| Hecke.jl | ❌ [Failure (status = 1)](https://oscarci.mathematik.uni-kl.de/job/oscar/9370/artifact/logs/build-9370/Hecke.jl.log) | 04:01 | 444 seconds | [9256](https://oscarci.mathematik.uni-kl.de/job/oscar/9256/) | [9257](https://oscarci.mathematik.uni-kl.de/job/oscar/9257/) |
+| CohP1.ipynb | ❌ [Failure (status = 255)](https://oscarci.mathematik.uni-kl.de/job/oscar/9370/artifact/logs/build-9370/CohP1.ipynb.log) | 04:26 | 1 seconds | [9369](https://oscarci.mathematik.uni-kl.de/job/oscar/9369/) | [9370](https://oscarci.mathematik.uni-kl.de/job/oscar/9370/) |
+| CheckPackages | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9370/artifact/logs/build-9370/CheckPackages.log) | 03:52 | 48 seconds |  |  |
+| GAP | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9370/artifact/logs/build-9370/GAP.log) | 03:53 | 157 seconds |  |  |
+| GAP.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9370/artifact/logs/build-9370/GAP.jl.log) | 03:55 | 38 seconds |  |  |
+| Nemo.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9370/artifact/logs/build-9370/Nemo.jl.log) | 03:56 | 305 seconds |  |  |
+| AbstractAlgebra.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9370/artifact/logs/build-9370/AbstractAlgebra.jl.log) | 04:08 | 313 seconds |  |  |
+| Singular.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9370/artifact/logs/build-9370/Singular.jl.log) | 04:14 | 59 seconds |  |  |
+| HomalgProject.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9370/artifact/logs/build-9370/HomalgProject.jl.log) | 04:15 | 70 seconds |  |  |
+| Polymake.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9370/artifact/logs/build-9370/Polymake.jl.log) | 04:16 | 337 seconds |  |  |
+| JuliaInterface | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9370/artifact/logs/build-9370/JuliaInterface.log) | 04:21 | 17 seconds |  |  |
+| JuliaExperimental | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9370/artifact/logs/build-9370/JuliaExperimental.log) | 04:22 | 39 seconds |  |  |
+| Oscar.jl | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9370/artifact/logs/build-9370/Oscar.jl.log) | 04:22 | 145 seconds |  |  |
+| NemoLinearAlgebraForCAP | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9370/artifact/logs/build-9370/NemoLinearAlgebraForCAP.log) | 04:25 | 38 seconds |  |  |
+| AbstractAlgebra.ipynb | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9370/artifact/logs/build-9370/AbstractAlgebra.ipynb.log) | 04:25 | 33 seconds |  |  |
+| Hecke.ipynb | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9370/artifact/logs/build-9370/Hecke.ipynb.log) | 04:26 | 76 seconds |  |  |
+| Singular.ipynb | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9370/artifact/logs/build-9370/Singular.ipynb.log) | 04:27 | 42 seconds |  |  |
+| g-vectors.ipynb | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9370/artifact/logs/build-9370/g-vectors.ipynb.log) | 04:28 | 138 seconds |  |  |
+| K3-16.ipynb | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9370/artifact/logs/build-9370/K3-16.ipynb.log) | 04:30 | 73 seconds |  |  |
+| c-automorphisms.ipynb | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9370/artifact/logs/build-9370/c-automorphisms.ipynb.log) | 04:31 | 103 seconds |  |  |
+| wronski-poly.ipynb | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9370/artifact/logs/build-9370/wronski-poly.ipynb.log) | 04:33 | 231 seconds |  |  |
+| Tropicalization.ipynb | ✅ [Success](https://oscarci.mathematik.uni-kl.de/job/oscar/9370/artifact/logs/build-9370/Tropicalization.ipynb.log) | 04:37 | 85 seconds |  |  |
