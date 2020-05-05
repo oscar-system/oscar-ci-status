@@ -6,7 +6,7 @@ layout: default
 
 <div class="cards">
   {% for t in site.data.ci.tests %}
-    <div class="card {{t.status}} {{t.name | replace: ".", "-"}}">
+    <div class="card {{t.status}} {{t.id}}">
     <h3>{{t.name}}</h3>
     <!-- Build was a <a href="{{t.log}}">{{t.status}}</a> -->
     <a href="{{t.log}}">[ log ]</a>
