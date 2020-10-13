@@ -1,6 +1,6 @@
 ---
-build: 13102
-build_url: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/
+build: 13103
+build_url: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/
 job: oscar
 organization: oscar-system
 repo: oscar-ci-status
@@ -8,68 +8,68 @@ repourl: https://github.com/oscar-system/oscar-ci-status
 tests:
 - name: CheckPackages
   id: checkpackages
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/CheckPackages.log
-  start: 2020-10-13 02:02
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/CheckPackages.log
+  start: 2020-10-13 03:03
   success: false
   exitcode: 1
   status: failure
-  duration: 83
+  duration: 88
   last_success: 13085
   last_success_url: https://oscarci.mathematik.uni-kl.de/job/oscar/13085/
   first_failure: 13086
   first_failure_url: https://oscarci.mathematik.uni-kl.de/job/oscar/13086/
 - name: GAP
   id: gap
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/GAP.log
-  start: 2020-10-13 02:03
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/GAP.log
+  start: 2020-10-13 03:05
   success: true
   exitcode: 0
   status: success
-  duration: 176
+  duration: 180
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: GAP.jl
   id: gap-jl
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/GAP.jl.log
-  start: 2020-10-13 02:03
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/GAP.jl.log
+  start: 2020-10-13 03:05
   success: true
   exitcode: 0
   status: success
-  duration: 46
+  duration: 52
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: Nemo.jl
   id: nemo-jl
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/Nemo.jl.log
-  start: 2020-10-13 02:03
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/Nemo.jl.log
+  start: 2020-10-13 03:05
   success: true
   exitcode: 0
   status: success
-  duration: 237
+  duration: 261
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: Hecke.jl
   id: hecke-jl
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/Hecke.jl.log
-  start: 2020-10-13 02:03
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/Hecke.jl.log
+  start: 2020-10-13 03:05
   success: true
   exitcode: 0
   status: success
-  duration: 1947
+  duration: 2027
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: AbstractAlgebra.jl
   id: abstractalgebra-jl
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/AbstractAlgebra.jl.log
-  start: 2020-10-13 02:03
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/AbstractAlgebra.jl.log
+  start: 2020-10-13 03:05
   success: false
   exitcode: 1
   status: failure
@@ -80,224 +80,200 @@ tests:
   first_failure_url: https://oscarci.mathematik.uni-kl.de/job/oscar/13086/
 - name: Singular.jl
   id: singular-jl
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/Singular.jl.log
-  start: 2020-10-13 02:03
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/Singular.jl.log
+  start: 2020-10-13 03:05
   success: true
   exitcode: 0
   status: success
-  duration: 63
+  duration: 71
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: HomalgProject.jl
   id: homalgproject-jl
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/HomalgProject.jl.log
-  start: 2020-10-13 02:04
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/HomalgProject.jl.log
+  start: 2020-10-13 03:06
   success: true
   exitcode: 0
   status: success
-  duration: 103
+  duration: 109
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: Polymake.jl
   id: polymake-jl
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/Polymake.jl.log
-  start: 2020-10-13 02:03
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/Polymake.jl.log
+  start: 2020-10-13 03:05
   success: true
   exitcode: 0
   status: success
-  duration: 474
+  duration: 511
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: GroupAtlas.jl
   id: groupatlas-jl
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/GroupAtlas.jl.log
-  start: 2020-10-13 02:03
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/GroupAtlas.jl.log
+  start: 2020-10-13 03:05
   success: false
   exitcode: 1
   status: failure
-  duration: 60
+  duration: 68
   last_success: 12167
   last_success_url: https://oscarci.mathematik.uni-kl.de/job/oscar/12167/
   first_failure: 12168
   first_failure_url: https://oscarci.mathematik.uni-kl.de/job/oscar/12168/
 - name: GroebnerBasis.jl
   id: groebnerbasis-jl
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/GroebnerBasis.jl.log
-  start: 2020-10-13 02:03
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/GroebnerBasis.jl.log
+  start: 2020-10-13 03:05
   success: true
   exitcode: 0
   status: success
-  duration: 24
+  duration: 28
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: JuliaInterface
   id: juliainterface
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/JuliaInterface.log
-  start: 2020-10-13 02:06
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/JuliaInterface.log
+  start: 2020-10-13 03:08
   success: true
   exitcode: 0
   status: success
-  duration: 22
+  duration: 23
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: JuliaExperimental
   id: juliaexperimental
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/JuliaExperimental.log
-  start: 2020-10-13 02:06
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/JuliaExperimental.log
+  start: 2020-10-13 03:08
   success: true
   exitcode: 0
   status: success
-  duration: 35
+  duration: 39
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: Oscar.jl
   id: oscar-jl
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/Oscar.jl.log
-  start: 2020-10-13 02:03
-  success: true
-  exitcode: 0
-  status: success
-  duration: 457
-  last_success: false
-  last_success_url: 
-  first_failure: false
-  first_failure_url: 
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/Oscar.jl.log
+  start: 2020-10-13 03:05
+  success: false
+  exitcode: 1
+  status: failure
+  duration: 211
+  last_success: 13102
+  last_success_url: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/
+  first_failure: 13103
+  first_failure_url: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/
 - name: NemoLinearAlgebraForCAP
   id: nemolinearalgebraforcap
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/NemoLinearAlgebraForCAP.log
-  start: 2020-10-13 02:03
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/NemoLinearAlgebraForCAP.log
+  start: 2020-10-13 03:05
   success: true
   exitcode: 0
   status: success
-  duration: 45
+  duration: 55
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: AbstractAlgebra.ipynb
   id: abstractalgebra-ipynb
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/AbstractAlgebra.ipynb.log
-  start: 2020-10-13 02:03
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/AbstractAlgebra.ipynb.log
+  start: 2020-10-13 03:05
   success: false
   exitcode: 1
   status: failure
-  duration: 29
+  duration: 31
   last_success: 13085
   last_success_url: https://oscarci.mathematik.uni-kl.de/job/oscar/13085/
   first_failure: 13086
   first_failure_url: https://oscarci.mathematik.uni-kl.de/job/oscar/13086/
 - name: CohP1.ipynb
   id: cohp1-ipynb
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/CohP1.ipynb.log
-  start: 2020-10-13 02:08
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/CohP1.ipynb.log
+  start: 2020-10-13 03:10
   success: true
   exitcode: 0
   status: success
-  duration: 74
+  duration: 81
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: TiltingEquivalence.ipynb
   id: tiltingequivalence-ipynb
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/TiltingEquivalence.ipynb.log
-  start: 2020-10-13 02:09
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/TiltingEquivalence.ipynb.log
+  start: 2020-10-13 03:11
   success: true
   exitcode: 0
   status: success
-  duration: 155
+  duration: 165
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: Hecke.ipynb
   id: hecke-ipynb
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/Hecke.ipynb.log
-  start: 2020-10-13 02:04
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/Hecke.ipynb.log
+  start: 2020-10-13 03:05
   success: true
   exitcode: 0
   status: success
-  duration: 101
+  duration: 116
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: Singular.ipynb
   id: singular-ipynb
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/Singular.ipynb.log
-  start: 2020-10-13 02:05
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/Singular.ipynb.log
+  start: 2020-10-13 03:07
   success: true
   exitcode: 0
   status: success
-  duration: 50
+  duration: 54
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: g-vectors.ipynb
   id: g-vectors-ipynb
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/g-vectors.ipynb.log
-  start: 2020-10-13 02:12
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/g-vectors.ipynb.log
+  start: 2020-10-13 03:14
   success: true
   exitcode: 0
   status: success
-  duration: 149
+  duration: 150
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: K3-16.ipynb
   id: k3-16-ipynb
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/K3-16.ipynb.log
-  start: 2020-10-13 02:14
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/K3-16.ipynb.log
+  start: 2020-10-13 03:16
   success: true
   exitcode: 0
   status: success
-  duration: 78
+  duration: 81
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: c-automorphisms.ipynb
   id: c-automorphisms-ipynb
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/c-automorphisms.ipynb.log
-  start: 2020-10-13 02:15
-  success: true
-  exitcode: 0
-  status: success
-  duration: 87
-  last_success: false
-  last_success_url: 
-  first_failure: false
-  first_failure_url: 
-- name: wronski-poly.ipynb
-  id: wronski-poly-ipynb
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/wronski-poly.ipynb.log
-  start: 2020-10-13 02:17
-  success: false
-  exitcode: 1
-  status: failure
-  duration: 176
-  last_success: 11192
-  last_success_url: https://oscarci.mathematik.uni-kl.de/job/oscar/11192/
-  first_failure: 11193
-  first_failure_url: https://oscarci.mathematik.uni-kl.de/job/oscar/11193/
-- name: Tropicalization.ipynb
-  id: tropicalization-ipynb
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/Tropicalization.ipynb.log
-  start: 2020-10-13 02:20
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/c-automorphisms.ipynb.log
+  start: 2020-10-13 03:18
   success: true
   exitcode: 0
   status: success
@@ -306,10 +282,34 @@ tests:
   last_success_url: 
   first_failure: false
   first_failure_url: 
+- name: wronski-poly.ipynb
+  id: wronski-poly-ipynb
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/wronski-poly.ipynb.log
+  start: 2020-10-13 03:19
+  success: false
+  exitcode: 1
+  status: failure
+  duration: 184
+  last_success: 11192
+  last_success_url: https://oscarci.mathematik.uni-kl.de/job/oscar/11192/
+  first_failure: 11193
+  first_failure_url: https://oscarci.mathematik.uni-kl.de/job/oscar/11193/
+- name: Tropicalization.ipynb
+  id: tropicalization-ipynb
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/Tropicalization.ipynb.log
+  start: 2020-10-13 03:22
+  success: true
+  exitcode: 0
+  status: success
+  duration: 93
+  last_success: false
+  last_success_url: 
+  first_failure: false
+  first_failure_url: 
 - name: uMPS(2,2,4)_0dim.ipynb
   id: umps-2-2-4-0dim-ipynb
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/uMPS-2-2-4-_0dim.ipynb.log
-  start: 2020-10-13 02:21
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/uMPS-2-2-4-_0dim.ipynb.log
+  start: 2020-10-13 03:24
   success: false
   exitcode: -1
   status: timeout
@@ -320,20 +320,20 @@ tests:
   first_failure_url: https://oscarci.mathematik.uni-kl.de/job/oscar/12168/
 - name: GITFans.ipynb
   id: gitfans-ipynb
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/GITFans.ipynb.log
-  start: 2020-10-13 02:26
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/GITFans.ipynb.log
+  start: 2020-10-13 03:29
   success: true
   exitcode: 0
   status: success
-  duration: 123
+  duration: 125
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: GroebnerBasis.ipynb
   id: groebnerbasis-ipynb
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/GroebnerBasis.ipynb.log
-  start: 2020-10-13 02:06
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/GroebnerBasis.ipynb.log
+  start: 2020-10-13 03:08
   success: true
   exitcode: 0
   status: success
@@ -344,48 +344,48 @@ tests:
   first_failure_url: 
 - name: AlgebraicGeometry.ipynb
   id: algebraicgeometry-ipynb
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/AlgebraicGeometry.ipynb.log
-  start: 2020-10-13 02:28
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/AlgebraicGeometry.ipynb.log
+  start: 2020-10-13 03:31
   success: true
   exitcode: 0
   status: success
-  duration: 132
+  duration: 139
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: DivFreeNotIndFree.ipynb
   id: divfreenotindfree-ipynb
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/DivFreeNotIndFree.ipynb.log
-  start: 2020-10-13 02:30
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/DivFreeNotIndFree.ipynb.log
+  start: 2020-10-13 03:33
   success: true
   exitcode: 0
   status: success
-  duration: 87
+  duration: 94
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: hom_vr_complexes.ipynb
   id: hom-vr-complexes-ipynb
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/hom_vr_complexes.ipynb.log
-  start: 2020-10-13 02:32
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/hom_vr_complexes.ipynb.log
+  start: 2020-10-13 03:35
   success: true
   exitcode: 0
   status: success
-  duration: 101
+  duration: 107
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: persistent_hom_vr.ipynb
   id: persistent-hom-vr-ipynb
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13102/artifact/logs/build-13102/persistent_hom_vr.ipynb.log
-  start: 2020-10-13 02:34
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/13103/artifact/logs/build-13103/persistent_hom_vr.ipynb.log
+  start: 2020-10-13 03:37
   success: false
   exitcode: 1
   status: failure
-  duration: 31
+  duration: 30
   last_success: false
   last_success_url: 
   first_failure: false
